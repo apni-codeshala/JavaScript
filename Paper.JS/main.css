@@ -1,0 +1,29 @@
+.fullPage {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.canvas {
+    width: 440px;
+    border: 2px solid black;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+canvas {
+    width: calc(100% - 40px);
+    height: calc(100% - 60px);
+    margin-top: 20px;
+    border: solid 1px black;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
